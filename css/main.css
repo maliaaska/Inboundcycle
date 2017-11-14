@@ -1,0 +1,77 @@
+
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+  cursor: pointer; 
+}
+
+.e-book {
+  float: left;
+}
+.nav-bar {
+  width: 100%;
+  height: 10rem;
+} 
+.nav-bar img {
+ margin-top: 2.5rem;
+ margin-left: 15%;
+}
+
+.jumbotron {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.first-paragraph {
+  font-size: 3rem;
+  font-weight: 500; 
+  color: orangered;
+  /* float: left; */
+}
+.orange {
+  color: orangered;
+}
+.separator-image {
+  width: 100%;
+  height: 12rem;
+  overflow: hidden;
+  display: center;
+  margin: auto;
+}
+.social {
+  position: relative;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 10rem;
+  height: 2rem;
+  font-size: 2rem;
+}
+.second-paragraph {
+  font-size: 2rem;
+  color: grey;
+}
+#image {
+  margin-bottom: 3rem;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 100%;
+}
+.third-paragraph {
+  font-size: 1rem;
+}
+
+.footer {
+  height: 12rem;
+  width: 100%;
+  background-color: #727171;
+}
