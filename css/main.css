@@ -11,11 +11,73 @@ body {
 
 button {
   cursor: pointer; 
+  width: 100%;
+  height: 3.5rem;
+  color: white;
+  background-color: #EB5A06;
+  font-weight: 500;
+  border: none;
+}
+input {
+  position: relative;
+  height: 2.8rem;
+  width: 94%;
+  margin-bottom: 1.8rem;
+  padding-left: 1rem;
+  color: #EBEBEB;
+
 }
 
-.e-book {
+h2 {
+  text-align: center;
+}
+.book {
+  float: left;
+  margin-top: -23rem;
+  margin-left: 12rem;
+  width: 0;
+}
+.container {
   float: left;
 }
+input[type=checkbox]
+  {
+    display: inline-block;
+    height: 1.4rem;
+    margin-bottom: 1.4rem;
+    width: 10%;
+    background-color: white;
+  
+  }
+.checkbox-text {
+  font-size: 135%;
+}
+.e-book {
+  position: absolute;
+  z-index:10
+}
+#e-book {
+  height: 80%;
+  width: 80%;
+}
+#descargar {
+  clear: both;
+  float: left;
+}
+.rellena {
+  clear: both;
+}
+.form {
+  margin-left: 2rem;
+  margin-top: 4rem;
+  width: 25rem;
+  float: left;
+  height: 30rem;
+  background-color: #EBEBEB;
+  padding: 2rem;
+  padding-right:2rem;
+}
+
 .nav-bar {
   width: 100%;
   height: 10rem;
@@ -24,21 +86,22 @@ button {
  margin-top: 2.5rem;
  margin-left: 15%;
 }
-
 .jumbotron {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   
 }
 
 .first-paragraph {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 500; 
   color: orangered;
-  /* float: left; */
+  float: left;
+  height: 20rem;
 }
 .orange {
   color: orangered;
+
 }
 .separator-image {
   width: 100%;
@@ -58,6 +121,8 @@ button {
 .second-paragraph {
   font-size: 2rem;
   color: grey;
+  clear: left;
+  float: left;
 }
 #image {
   margin-bottom: 3rem;
@@ -67,10 +132,13 @@ button {
   min-width: 100%;
 }
 .third-paragraph {
-  font-size: 1rem;
+  font-size: 1.4rem;
+  clear: left;
+  float: left;
 }
 
 .footer {
+  clear: both;
   height: 12rem;
   width: 100%;
   background-color: #727171;
