@@ -65,7 +65,11 @@ input[type=checkbox]
   float: left;
 }
 .rellena {
-  clear: both;
+  color: rgb(235, 90, 6);
+  font-size: 1.4rem;
+  margin-left: 15rem;
+  margin-bottom: 15rem;
+  font-weight: 800;
 }
 .form {
   margin-left: 2rem;
